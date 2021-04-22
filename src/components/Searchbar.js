@@ -58,18 +58,22 @@ const Searchbar = () => {
                   src={data.sprites["front_default"]}
                   alt="imagen del pokemon"
                 />
+
                 <Card.Body>
                   <Card.Title class="p-3 mb-2 p-3 mb-2 bg-dark text-white">
                     Nombre: {data.name}
                   </Card.Title>
                 </Card.Body>
+
                 <ListGroup className="list-group-flush">
                   <ListGroupItem class="p-3 mb-2 p-3 mb-2 bg-dark text-white">
                     Weight: {data.weight} lbs
                   </ListGroupItem>
+
                   <ListGroupItem class="p-3 mb-2 p-3 mb-2 bg-dark text-white">
                     Type: {pokemonType}
                   </ListGroupItem>
+
                   <ListGroupItem class="p-3 mb-2 p-3 mb-2 bg-dark text-white">
                     Number of battles: {data.game_indices.length}
                   </ListGroupItem>
